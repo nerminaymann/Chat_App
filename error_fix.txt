@@ -1,0 +1,3 @@
+when Redis error occur:
+run command:
+>> docker container start some-redis
