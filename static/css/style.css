@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #27ae60;
+  background: #67786d;
   font-family: "proxima-nova", "Source Sans Pro", sans-serif;
   font-size: 1em;
   letter-spacing: 0.1px;
@@ -70,7 +70,6 @@ frame {
   -o-transform: scaleY(-1);
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
-  filter: FlipH;
   -ms-filter: "FlipH";
 }
 #frame #sidepanel #profile .wrap {
