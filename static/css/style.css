@@ -1,10 +1,9 @@
-
-  body {
+body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #67786d;
+  background: #27ae60;
   font-family: "proxima-nova", "Source Sans Pro", sans-serif;
   font-size: 1em;
   letter-spacing: 0.1px;
@@ -14,7 +13,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-frame {
+#frame {
   width: 95%;
   min-width: 360px;
   max-width: 1000px;
@@ -70,6 +69,7 @@ frame {
   -o-transform: scaleY(-1);
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
+  filter: FlipH;
   -ms-filter: "FlipH";
 }
 #frame #sidepanel #profile .wrap {

@@ -32,7 +32,6 @@ $("#status-options ul li").click(function() {
 	$("#status-options").removeClass("active");
 });
 
-//
 // function newMessage() {
 // 	message = $(".message-input input").val();
 // 	if($.trim(message) == '') {
@@ -54,4 +53,3 @@ $("#status-options ul li").click(function() {
 //     return false;
 //   }
 // });
-
